@@ -10,6 +10,9 @@ class PageController extends Controller
 {
     public function index(){
         $movies = Movie::all();
+        //filtro il mio database!  
+        //$movies = Movie::where('title', 'Gravity')->get()   2 param 
+        //$movies = Movie::where('vote', '>', 8 )->get()      3 param
         //dd($movies);
         return view('home', compact('movies'));
     }
