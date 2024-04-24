@@ -9,7 +9,7 @@
         <div class="row row-cols-1 row-cols-md-3 g-3">
             @foreach($movies as $movie)
              <div class="col">
-             <div class="card">
+             <div class="card h-100">
                 <img src="https://picsum.photos/200/200" class="card-img-top">
                 <div class="card-body">
                 {{$movie->title}}
