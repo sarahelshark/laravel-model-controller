@@ -2,3 +2,10 @@ body{
     background-color: #efefee;
     color: rgb(37, 33, 33);
 }
+.card{
+    cursor: pointer;
+   
+} 
+.card:hover{
+    transform: scale(1.1);
+}
