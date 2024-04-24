@@ -16,14 +16,11 @@
     </head>
     <body class="antialiased">
 
-   <header>
-    <nav>NAVBAR</nav>
-   </header>
+   @include('partials.header')
    <main>
      @yield('content')
    </main>
-   <footer> FOOTER</footer>
-        
+   @include('partials.footer')
         
         
     </body>
