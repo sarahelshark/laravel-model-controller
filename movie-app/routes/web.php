@@ -14,4 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [PageController::class,'index']);
+Route::get('/', [PageController::class,'index'])->name('home');
+Route::get('/archive', [PageController::class,'archive'])->name('archive');
+Route::get('/trending', [PageController::class,'trending'])->name('trending');

@@ -13,4 +13,12 @@ class PageController extends Controller
         //dd($movies);
         return view('home', compact('movies'));
     }
+
+    public function archive(){
+        return view('archive');
+    }
+    public function trending(){
+        return view('trending');
+    }
+
 }
