@@ -1,4 +1,7 @@
 @extends('layouts.app')
+
+@section('pageTitle', 'trending')
+
     @section('content') 
         
 

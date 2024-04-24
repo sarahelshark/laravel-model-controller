@@ -1,4 +1,6 @@
 @extends('layouts.app')
+
+@section('pageTitle', 'archive')
     @section('content') 
         
 
