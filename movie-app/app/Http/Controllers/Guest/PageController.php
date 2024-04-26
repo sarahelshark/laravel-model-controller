@@ -14,6 +14,7 @@ class PageController extends Controller
         //$movies = Movie::where('title', 'Gravity')->get()   2 param 
         //$movies = Movie::where('vote', '>', 8 )->get()      3 param
         //dd($movies);
+        //potrei anche utilizzare un orderby() e limit()
         return view('home', compact('movies'));
     }
 
@@ -21,6 +22,7 @@ class PageController extends Controller
         return view('archive');
     }
     public function trending(){
+        
         return view('trending');
     }
 
